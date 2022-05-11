@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BuildingsCollection\BuildingsCollection.csproj" />
+    <ProjectReference Include="..\CityService\City.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\ConsoleTexts.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>ConsoleTexts.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\ConsoleTexts.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>ConsoleTexts.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
