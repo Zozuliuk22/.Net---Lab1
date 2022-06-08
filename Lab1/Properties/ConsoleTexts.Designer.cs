@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace ConsoleInterface.Properties {
+namespace Application.Properties {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace ConsoleInterface.Properties {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("ConsoleInterface.Properties.ConsoleTexts", typeof(ConsoleTexts).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Application.Properties.ConsoleTexts", typeof(ConsoleTexts).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -79,6 +79,33 @@ namespace ConsoleInterface.Properties {
         internal static string Menu {
             get {
                 return ResourceManager.GetString("Menu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Blocks with multi-entrences houses:.
+        /// </summary>
+        internal static string MultiEntrencesHousesLabel {
+            get {
+                return ResourceManager.GetString("MultiEntrencesHousesLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Project types which consists of 5 or more floats:.
+        /// </summary>
+        internal static string SpecificTypesLabel {
+            get {
+                return ResourceManager.GetString("SpecificTypesLabel", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The biggest Block consists of:.
+        /// </summary>
+        internal static string TheBiggestBlockLabel {
+            get {
+                return ResourceManager.GetString("TheBiggestBlockLabel", resourceCulture);
             }
         }
         

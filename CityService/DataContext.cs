@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using BuildingsCollection;
 using BuildingsCollection.Enums;
 
-
 namespace City
-{ 
-    public static class DataSeeder
+{     
+    public static class DataContext //DataSeeder -> DataContext
     {
         public static List<House> Houses = new()
         {
@@ -16,7 +15,7 @@ namespace City
                 ProjectType = ProjectTypes.HighRise,
                 FloatsNumber = 5,
                 EntrencesNumber = 4,
-                CreationDate = DateTime.Today.AddYears(-20)
+                CreationDate = DateTimeOffset.Now.AddYears(-20)
             },
             new House()
             {
@@ -24,7 +23,7 @@ namespace City
                 ProjectType = ProjectTypes.HighRise,
                 FloatsNumber = 5,
                 EntrencesNumber = 4,
-                CreationDate = DateTime.Today.AddYears(-30)
+                CreationDate = DateTimeOffset.Now.AddYears(-30)
             },
             new House()
             {
@@ -32,7 +31,7 @@ namespace City
                 ProjectType = ProjectTypes.HighRise,
                 FloatsNumber = 9,
                 EntrencesNumber = 7,
-                CreationDate = DateTime.Today.AddYears(-15)
+                CreationDate = DateTimeOffset.Now.AddYears(-15)
             },
             new House()
             {
@@ -40,7 +39,7 @@ namespace City
                 ProjectType = ProjectTypes.HighRise,
                 FloatsNumber = 9,
                 EntrencesNumber = 7,
-                CreationDate = DateTime.Today.AddYears(-2)
+                CreationDate = DateTimeOffset.Now.AddYears(-2)
             },
             new House()
             {
@@ -48,7 +47,7 @@ namespace City
                 ProjectType = ProjectTypes.OneStory,
                 FloatsNumber = 1,
                 EntrencesNumber = 1,
-                CreationDate = DateTime.Today.AddYears(-6)
+                CreationDate = DateTimeOffset.Now.AddYears(-6)
             },
             new House()
             {
@@ -56,7 +55,7 @@ namespace City
                 ProjectType = ProjectTypes.OneStory,
                 FloatsNumber = 1,
                 EntrencesNumber = 1,
-                CreationDate = DateTime.Today.AddYears(-9)
+                CreationDate = DateTimeOffset.Now.AddYears(-9)
             },
             new House()
             {
@@ -64,7 +63,7 @@ namespace City
                 ProjectType = ProjectTypes.Hostel,
                 FloatsNumber = 9,
                 EntrencesNumber = 1,
-                CreationDate = DateTime.Today.AddYears(-20)
+                CreationDate = DateTimeOffset.Now.AddYears(-20)
             },
             new House()
             {
@@ -72,7 +71,7 @@ namespace City
                 ProjectType = ProjectTypes.Hostel,
                 FloatsNumber = 5,
                 EntrencesNumber = 1,
-                CreationDate = DateTime.Today.AddYears(-41)
+                CreationDate = DateTimeOffset.Now.AddYears(-41)
             },
             new House()
             {
@@ -80,7 +79,7 @@ namespace City
                 ProjectType = ProjectTypes.Hostel,
                 FloatsNumber = 5,
                 EntrencesNumber = 1,
-                CreationDate = DateTime.Today.AddYears(-11)
+                CreationDate = DateTimeOffset.Now.AddYears(-11)
             },
             new House()
             {
@@ -88,7 +87,7 @@ namespace City
                 ProjectType = ProjectTypes.HighRise,
                 FloatsNumber = 7,
                 EntrencesNumber = 3,
-                CreationDate = DateTime.Today.AddYears(-20)
+                CreationDate = DateTimeOffset.Now.AddYears(-20)
             },
             new House()
             {
@@ -96,7 +95,7 @@ namespace City
                 ProjectType = ProjectTypes.Cottage,
                 FloatsNumber = 2,
                 EntrencesNumber = 1,
-                CreationDate = DateTime.Today.AddYears(-4)
+                CreationDate = DateTimeOffset.Now.AddYears(-4)
             },
             new House()
             {
@@ -104,7 +103,7 @@ namespace City
                 ProjectType = ProjectTypes.Cottage,
                 FloatsNumber = 3,
                 EntrencesNumber = 1,
-                CreationDate = DateTime.Today.AddYears(-7)
+                CreationDate = DateTimeOffset.Now.AddYears(-7)
             },
             new House()
             {
@@ -112,7 +111,7 @@ namespace City
                 ProjectType = ProjectTypes.Cottage,
                 FloatsNumber = 1,
                 EntrencesNumber = 1,
-                CreationDate = DateTime.Today.AddYears(-1)
+                CreationDate = DateTimeOffset.Now.AddYears(-1)
             },
         };
 

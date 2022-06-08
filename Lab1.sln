@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32328.378
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleInterface", "Lab1\ConsoleInterface.csproj", "{A617579F-39A0-491A-9193-7719E2533CEE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Lab1\Application.csproj", "{A617579F-39A0-491A-9193-7719E2533CEE}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuildingsCollection", "BuildingsCollection\BuildingsCollection.csproj", "{761639E4-3D58-4DCD-A911-36432DE77B54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "City", "CityService\City.csproj", "{7BC39336-0390-4B02-8BBF-9B39A528914D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "City", "CityService\City.csproj", "{7BC39336-0390-4B02-8BBF-9B39A528914D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

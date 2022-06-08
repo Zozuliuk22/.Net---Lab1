@@ -13,7 +13,8 @@ namespace BuildingsCollection
 
         public int EntrencesNumber { get; set; }
 
-        public DateTime CreationDate { get; set; }
+        //DataTime -> DateTimeOffset
+        public DateTimeOffset CreationDate { get; set; }
 
         public override string ToString()
         {
